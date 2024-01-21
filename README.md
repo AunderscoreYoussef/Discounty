@@ -6,24 +6,24 @@ the best deals and promotions offered by stores in their vicinity. Whether you'r
 money, or a store owner showcasing your latest discounts - Discounty is for you.</p>
 
 <h3>Key Features</h3>
-<ol><li>1. Location-Based Discounts: Discover discounts from stores near your current location,
+<ol><li>Location-Based Discounts: Discover discounts from stores near your current location,
 making it easy to find great deals in your neighbourhood.</li>
-<li>2. Real-Time Updates: Get real-time updates on latest discounts.</li>
-<li>3. Store Details: Access detailed information about each store, including pictures and additional details about
+<li>Real-Time Updates: Get real-time updates on latest discounts.</li>
+<li>Store Details: Access detailed information about each store, including pictures and additional details about
 the discounts they offer.</li>
 </ol>
 
 <h3>How it works</h3>
 <ol><li>
-  1. Location Access: Upon launching the app, Discounty requests permission to access your location. This ensures that the app
+  Location Access: Upon launching the app, Discounty requests permission to access your location. This ensures that the app
   can provide you with discounts from stores in your proximity.
 </li>
 <li>
-  2. Explore Discounts: Browse through a list of discounts offered by nearby stores. The app uses distance-calculating formulas
+  Explore Discounts: Browse through a list of discounts offered by nearby stores. The app uses distance-calculating formulas
   to present you with the closest Discounty registered stores.
 </li>
 <li>
-  3. Store Details: Tap on a store to view more details about their discounts, location, and additional information.
+  Store Details: Tap on a store to view more details about their discounts, location, and additional information.
 </li></ol>
 
 <h3>For Store Owners</h3>
@@ -33,7 +33,7 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 <h2>Setting Up Django Backend for Discounty App</h2>
 <h3>Prerequisites</h3>
 <p>Before setting up the Django backend, make sure you have the following prerequisites installed on your development machine:</p>
-<ol><li></li></ol>
+<ul><li>Python: Install Python on your machine. You can download it from <a href="python.org">python.org</a>.</li></ul>
 
 
 
