@@ -9,7 +9,9 @@ const StoreDetailsScreen = ({ route }) => {
   useEffect(() => {
     const fetchDiscounts = async () => {
       try {
-        const response = await axios.get(`http://[YOUR IPv4]:[DJANGO PORT]/api/discounts?store_id=${store.id}`);
+
+        // CONFIGURE API ENDPOINT
+        const response = await axios.get(`http://192.168.0.13:8000/api/discounts?store_id=${store.id}`);
         const fetchedDiscounts = response.data;
         setDiscounts(fetchedDiscounts);
       } catch (error) {

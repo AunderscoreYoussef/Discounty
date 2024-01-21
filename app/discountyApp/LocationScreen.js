@@ -35,7 +35,9 @@ const LocationScreen = () => {
   useEffect(() => {
     const checkNearbyStores = async () => {
       try {
-        const response = await axios.get('http://[YOUR IPv4]:[DJANGO PORT]/api/stores');
+
+        //CONFIGURE API ENDPOINT
+        const response = await axios.get('http://192.168.0.13:8000/api/stores');
         const stores = response.data;
         const nearbyStores = stores.filter((store) => {
           const storeDistance = calculateDistance(

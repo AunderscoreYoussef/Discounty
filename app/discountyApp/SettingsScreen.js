@@ -1,7 +1,8 @@
 import React, { useContext } from 'react';
-import { View, Text, StyleSheet, TouchableOpacity, Slider } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { SettingsContext } from './SettingsContext';
+import Slider from '@react-native-community/slider';
 
 const SettingsScreen = () => {
   const { range, setRange } = useContext(SettingsContext);
