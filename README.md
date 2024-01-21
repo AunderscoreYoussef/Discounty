@@ -33,7 +33,8 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 <h2>Setting Up Django Backend for Discounty App</h2>
 <h3>Prerequisites</h3>
 <p>Before setting up the Django backend, make sure you have the following prerequisites installed on your development machine:</p>
-<ul><li>Python: Install Python on your machine. You can download it from <a href="python.org">python.org</a>.</li></ul>
+<ul><li><b>Python:</b> Install Python on your machine. You can download it from <a href="python.org">python.org</a>.</li>
+<li><b>pip:</b>Ensure that you have <code>pip</code>, in the Python package installer, installed.</li></ul>
 
 
 
@@ -63,7 +64,7 @@ on a physical device for testing.</li></ul>
 <p>Open the project in your preferred code editor and navigate to the <code>LocationScreen.js</code> and <code>StoreDetailsScreen.js</code> files.
 Locate the following line:</p>
 <code>const response = await axios.get('http://[YOUR DJANGO IP]:[YOUR DJANGO PORT]')</code>
-<p>Replace the URL with the endpoint of your Django API where store information is served. Make sure your API is running and accessible. For development's sake, it is recommended to input custom IP and port through Django's <code>runserver</code> command. <a href="#example">Example.</a></p>
+<p>Replace the URL with the endpoint of your Django API where store information is served. Make sure your API is running and accessible. For development's sake, it is recommended to input custom IP and port through Django's <code>runserver</code> command. <a href="#example">Example</a>.</p>
 
 <h3>Run the App</h3>
 <code>expo start</code>
