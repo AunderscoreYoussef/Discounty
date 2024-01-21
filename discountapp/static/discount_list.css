@@ -1,0 +1,231 @@
+body {
+    font-family: "Oswald", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    z-index: 1;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 3px 10px;
+}
+
+.discount {
+    margin-left: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.discount a {
+    text-decoration: none;
+    color: white;
+}
+
+.percentageHeader {
+    color: #54E3B8;
+}
+
+.other {
+    color: white;
+    margin-right: 30px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.other-item {
+    margin-right: 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logout-button {
+    text-decoration: none;
+    color: white;
+}
+
+.logout-button:hover{
+    text-decoration: underline;
+}
+
+.container {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    flex-direction: column;
+}
+
+#boxJedan {
+    height: 100px;
+    background-color: #54E3B8;
+    position: relative;
+    box-shadow: 0px 0px 8px;
+}
+
+#boxDva {
+    height: auto;
+    flex: 1;
+    background-color: #555555;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0px 0px 8px;
+}
+
+.image {
+    margin-left: 50px;
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    margin-top: 50px;
+    position: absolute;
+    z-index: 2;
+    background-color: white;
+    border: 5px solid #555555;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-top: 100px;
+    width: 85%;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+th,
+td:not(:last-child) {
+    border-right: 1px solid black;
+}
+
+.store-info {
+    margin-top: 10px;
+    margin-left: 210px;
+    font-size: 20px;
+    color: white;
+}
+
+.add-item-button {
+    margin-top: 20px;
+    background-color: #54E3B8;
+    color: black;
+    padding: 10px 95px;
+    border: none;
+    font-size: 16px;
+    margin-left: 40%;
+    margin-right: 40%;
+    width: 20%;
+    text-decoration: none;
+    border: 1px solid black;
+    width: fit-content; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block; 
+    white-space: nowrap;
+    text-align: center;
+}
+
+.add-item-button:hover {
+    color: white;
+    background-color: black;
+}
+
+
+
+
+.footer {
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.icon i {
+    color: #54E3B8;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+.iconText {
+    font-size: 16px;
+}
+
+.percentageFooter {
+    color: #54E3B8;
+    margin-left: 30px;
+    font-size: 40px;
+}
+
+
+.update-button {
+    background-color: rgb(78, 166, 78);
+    text-align: center;
+}
+
+.update-button a {
+    text-decoration: none;
+    color: black;
+}
+
+.delete-button {
+    background-color: rgb(209, 89, 89);
+    text-align: center;
+}
+
+.delete-button a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1220px) {
+    .add-item-button {
+        width: 20%;
+        text-align: center;
+        display: block;
+    }
+}

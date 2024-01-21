@@ -1,0 +1,19 @@
+# .gitignore
+Frontend/node_modules/
+Frontend/ios/Pods/
+Frontend/android/.gradle/
+Frontend/android/app/build/
+Frontend/android/build/
+Frontend/ios/build/
+Frontend/android/app/src/main/assets/index.android.bundle
+Frontend/ios/build/
+Backend/__pycache__/
+Backend/venv/
+__pycache__/
+venv/
+.vscode/
+*.pyc
+*.pyo
+.DS_Store
+*.db
+*.sqlite3
