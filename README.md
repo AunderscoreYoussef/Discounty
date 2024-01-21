@@ -7,7 +7,7 @@ money, or a store owner showcasing your latest discounts - Discounty is for you.
 
 <h3>Key Features</h3>
 <ul><li>Location-Based Discounts: Discover discounts from stores near your current location,
-making it easy to find great deals in your neihbourhood.</li>
+making it easy to find great deals in your neighbourhood.</li>
 <li>Real-Time Updates: Get real-time updates on latest discounts.</li>
 <li>Store Details: Access detailed information about each store, including pictures and additional details about
 the discounts they offer.</li>
@@ -31,3 +31,9 @@ the discounts they offer.</li>
 traffic and attract new customers by featuring your discounts on the app.</p>
 
 <h2>Setting up</h2>
+<h3>Prerequisites</h3>
+<p>Before setting up the Discounty app, ensure that you have the following prerequisites installed on your development machine:
+</p>
+<ul><li>Node.js and npm: Make sure you have Node.js installed, as npm is required for making project dependencies.</li>
+<li>Expo CLI: Install the Expo CLI globally using the following command: <br>
+<code>npm install -g expo-cli</code></li></ul>
