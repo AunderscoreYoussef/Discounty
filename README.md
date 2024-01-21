@@ -44,8 +44,7 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 
 <h3>Create a Virtual Environment</h3>
 <p>It is recommended to use a virtual environment to manage project dependencies. Open a terminal and run the following commands:</p>
-<code>
-  #Create a virtual environment
+<code>#Create a virtual environment
   python -m venv venv
 
   #Activate the virtual environment
