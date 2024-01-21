@@ -41,6 +41,46 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 <ul><li><b>Python:</b> Install Python on your machine. You can download it from <a href="python.org">python.org</a>.</li>
 <li><b>pip:</b> Ensure that you have <code>pip</code>, in the Python package installer, installed.</li></ul>
 
+<h3>Create a Virtual Environment</h3>
+<p>It is recommended to use a virtual environment to manage project dependencies. Open a terminal and run the following commands:</p>
+<code>
+  #Create a virtual environment
+  python -m venv venv
+
+  #Activate the virtual environment
+  #Windows:
+  venv\Scripts\activate
+  #macOS/Linux:
+  source venv/bin/activate
+</code>
+
+<h3>Clone the Repository</h3>
+<p>Clone the Discounty repository to your local machine using the following command:</p>
+<code>git clone https://github.com/AunderscoreYoussef/Discounty</code>
+
+<h3>Navigate to the Project Directory</h3>
+<p>Move into the project directory:</p>
+<code>cd discounty</code>
+
+<h3>Install Dependencies</h3>
+<p>Install the required Python packages</p>
+<code>pip install -r requirements.txt</code>
+
+<h3>Configure the Database</h3>
+<p>By default, this Django project uses MySQL. If you prefer a different database, adjust the database settings in the <code>Discounty/discountapp/discountapp/settings.py</code> file.</p>
+<br>
+<p>Run the following commands to apply migrations and create the initial database: </p>
+<code>python manage.py makemigrations
+python manage.py migrate</code>
+
+<h3>Run the Development Server</h3>
+<p>Start the Django development server. It is preferred to use your IPv4.</p>
+<code>python manage.py runserver [YOUR IP]:[YOUR PORT]</code>
+<p>The backend should now be running at <code>http://[IP]:[PORT]</code></p>
+
+<hr>
+
+<p>This guide provides a general overview of setting up the Django backend for the Discounty app. Depending on your project structure or additional requirements, you might need to adjust certain steps. If you encounter any issues during the setup process, refer to the Django documentation for troubleshooting.</p>
 
 
 <!--FRONTEND-->
@@ -54,14 +94,6 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 <code>npm install -g expo-cli</code></li>
 <li><b>Expo Go:</b> Download the Expo Go app on your mobile device. This app allows you to run your React Native applications
 on a physical device for testing.</li></ul>
-
-<h3>Clone the Repository</h3>
-<p>Clone the Discounty repository to your local machine using the following command:</p>
-<code>git clone https://github.com/AunderscoreYoussef/Discounty</code>
-
-<h3>Navigate to the Project Directory</h3>
-<p>Move into the project directory:</p>
-<code>cd discounty</code>
 
 <h3>Install Dependencies</h3>
 <p>Install the project dependencies using npm:</p>
@@ -79,3 +111,9 @@ Locate the following line:</p>
 
 <h3>Explore Discounty</h3>
 <p>Once the app is running, you can explore the Discounty app on your mobile device. Discover nearby stores, view their discounts, and experience the app's functionality.</p>
+
+<hr>
+
+This guide provides a general overview of setting up the Discounty app for exploration. Depending on your specific project structure or additional requirements, you might need to adjust certain steps. If you encounter any issues during the setup process, refer to the React Native and Expo documentation for troubleshooting. 
+<br>
+Now, both the frontend (React Native app) and the backend (Django app) should be set up for exploration. If you have any specificc configurations or additional functionalities in your Django backend, make sure to update the settings accordingly.
