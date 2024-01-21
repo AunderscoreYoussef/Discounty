@@ -36,4 +36,7 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 </p>
 <ul><li>Node.js and npm: Make sure you have Node.js installed, as npm is required for making project dependencies.</li>
 <li>Expo CLI: Install the Expo CLI globally using the following command: <br>
-<code>npm install -g expo-cli</code></li></ul>
+<code style="
+  background-color: black;
+  color: white;
+  ">npm install -g expo-cli</code></li></ul>
