@@ -30,22 +30,29 @@ the discounts they offer.</li>
 <p>If you're a store owner, Discounty provides a platform to showcase your promotions to a broader audience. Increase foot
 traffic and attract new customers by featuring your discounts on the app.</p>
 
+
+
+
+<!--BACKEND-->
+
 <h2>Setting Up Django Backend for Discounty App</h2>
 <h3>Prerequisites</h3>
 <p>Before setting up the Django backend, make sure you have the following prerequisites installed on your development machine:</p>
 <ul><li><b>Python:</b> Install Python on your machine. You can download it from <a href="python.org">python.org</a>.</li>
-<li><b>pip:</b>Ensure that you have <code>pip</code>, in the Python package installer, installed.</li></ul>
+<li><b>pip:</b> Ensure that you have <code>pip</code>, in the Python package installer, installed.</li></ul>
 
 
+
+<!--FRONTEND-->
 
 <h2>Setting Up React Frontend for Discounty App</h2>
 <h3>Prerequisites</h3>
 <p>Before setting up the Discounty app, ensure that you have the following prerequisites installed on your development machine:
 </p>
-<ul><li>Node.js and npm: Make sure you have Node.js installed, as npm is required for making project dependencies.</li>
-<li>Expo CLI: Install the Expo CLI globally using the following command: <br>
+<ul><li><b>Node.js and npm:</b> Make sure you have Node.js installed, as npm is required for making project dependencies.</li>
+<li><b>Expo CLI:</b> Install the Expo CLI globally using the following command: <br>
 <code>npm install -g expo-cli</code></li>
-<li>Expo Go: Download the Expo Go app on your mobile device. This app allows you to run your React Native applications
+<li><b>Expo Go:</b> Download the Expo Go app on your mobile device. This app allows you to run your React Native applications
 on a physical device for testing.</li></ul>
 
 <h3>Clone the Repository</h3>
