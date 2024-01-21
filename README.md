@@ -36,6 +36,7 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 <!--BACKEND-->
 
 <h2>Setting Up Django Backend for Discounty App</h2>
+<b>It is crucial that you start the Backend before starting up the Frontend.</b>
 <h3>Prerequisites</h3>
 <p>Before setting up the Django backend, make sure you have the following prerequisites installed on your development machine:</p>
 <ul><li><b>Python:</b> Install Python on your machine. You can download it from <a href="python.org">python.org</a>.</li>
