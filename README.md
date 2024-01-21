@@ -106,7 +106,7 @@ Locate the following line:</p>
 <p>Replace the URL with the endpoint of your Django API where store information is served. Make sure your API is running and accessible. For development's sake, it is recommended to input custom IP and port through Django's <code>runserver</code> command. <a href="#example">Example</a>.</p>
 
 <h3>Run the App</h3>
-<code>expo start</code>
+<code>npm start</code>
 <p>Scan the QR code using the Expo Go app on your mobile device or run the app on an emulator.</p>
 
 <h3>Explore Discounty</h3>
