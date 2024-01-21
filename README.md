@@ -36,7 +36,24 @@ traffic and attract new customers by featuring your discounts on the app.</p>
 </p>
 <ul><li>Node.js and npm: Make sure you have Node.js installed, as npm is required for making project dependencies.</li>
 <li>Expo CLI: Install the Expo CLI globally using the following command: <br>
-<code style="
-  background-color: black;
-  color: white;
-  ">npm install -g expo-cli</code></li></ul>
+<code>npm install -g expo-cli</code></li>
+<li>Expo Go: Download the Expo Go app on your mobile device. This app allows you to run your React Native applications
+on a physical device for testing.</li></ul>
+
+<h3>Clone the Repository</h3>
+<p>Clone the Discounty repository to your local machine using the following command:</p>
+<code>git clone https://github.com/AunderscoreYoussef/Discounty</code>
+
+<h3>Navigate to the Project Directory</h3>
+<p>Move into the project directory:</p>
+<code>cd discounty</code>
+
+<h3>Install Dependencies</h3>
+<p>Install the project dependencies using npm:</p>
+<code>npm install</code>
+
+<h3>Configure API Endpoint</h3>
+<p>Open the project in your preferred code editor and navigate to the `LocationScreen.js` and `StoreDetailsScreen.js` files.
+Locate the following line:</p>
+<code>const response = await axios.get('http://[YOUR DJANGO IP]:[YOUR DJANGO PORT]')</code>
+<p>For development sakes, it is recommended to input custom IP and port through Django's runserver command. <a href="#example">Example.</a></p>
