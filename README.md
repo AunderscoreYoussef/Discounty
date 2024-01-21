@@ -53,7 +53,7 @@ on a physical device for testing.</li></ul>
 <code>npm install</code>
 
 <h3>Configure API Endpoint</h3>
-<p>Open the project in your preferred code editor and navigate to the `LocationScreen.js` and `StoreDetailsScreen.js` files.
+<p>Open the project in your preferred code editor and navigate to the ```LocationScreen.js``` and ```StoreDetailsScreen.js``` files.
 Locate the following line:</p>
 <code>const response = await axios.get('http://[YOUR DJANGO IP]:[YOUR DJANGO PORT]')</code>
-<p>For development sakes, it is recommended to input custom IP and port through Django's runserver command. <a href="#example">Example.</a></p>
+<p>Replace the URL with the endpoint of your Django API where store information is served. Make sure your API is running and accessible. For development's sake, it is recommended to input custom IP and port through Django's ```runserver``` command. <a href="#example">Example.</a></p>
