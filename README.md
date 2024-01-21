@@ -6,31 +6,38 @@ the best deals and promotions offered by stores in their vicinity. Whether you'r
 money, or a store owner showcasing your latest discounts - Discounty is for you.</p>
 
 <h3>Key Features</h3>
-<ul><li>Location-Based Discounts: Discover discounts from stores near your current location,
+<ol><li>1. Location-Based Discounts: Discover discounts from stores near your current location,
 making it easy to find great deals in your neighbourhood.</li>
-<li>Real-Time Updates: Get real-time updates on latest discounts.</li>
-<li>Store Details: Access detailed information about each store, including pictures and additional details about
+<li>2. Real-Time Updates: Get real-time updates on latest discounts.</li>
+<li>3. Store Details: Access detailed information about each store, including pictures and additional details about
 the discounts they offer.</li>
-</ul>
+</ol>
 
 <h3>How it works</h3>
-<ul><li>
-  Location Access: Upon launching the app, Discounty requests permission to access your location. This ensures that the app
+<ol><li>
+  1. Location Access: Upon launching the app, Discounty requests permission to access your location. This ensures that the app
   can provide you with discounts from stores in your proximity.
 </li>
 <li>
-  Explore Discounts: Browse through a list of discounts offered by nearby stores. The app uses distance-calculating formulas
+  2. Explore Discounts: Browse through a list of discounts offered by nearby stores. The app uses distance-calculating formulas
   to present you with the closest Discounty registered stores.
 </li>
 <li>
-  Store Details: Tap on a store to view more details about their discounts, location, and additional information.
-</li></ul>
+  3. Store Details: Tap on a store to view more details about their discounts, location, and additional information.
+</li></ol>
 
 <h3>For Store Owners</h3>
 <p>If you're a store owner, Discounty provides a platform to showcase your promotions to a broader audience. Increase foot
 traffic and attract new customers by featuring your discounts on the app.</p>
 
-<h2>Setting up</h2>
+<h2>Setting Up Django Backend for Discounty App</h2>
+<h3>Prerequisites</h3>
+<p>Before setting up the Django backend, make sure you have the following prerequisites installed on your development machine:</p>
+<ol><li></li></ol>
+
+
+
+<h2>Setting Up React Frontend for Discounty App</h2>
 <h3>Prerequisites</h3>
 <p>Before setting up the Discounty app, ensure that you have the following prerequisites installed on your development machine:
 </p>
@@ -53,7 +60,14 @@ on a physical device for testing.</li></ul>
 <code>npm install</code>
 
 <h3>Configure API Endpoint</h3>
-<p>Open the project in your preferred code editor and navigate to the ```LocationScreen.js``` and ```StoreDetailsScreen.js``` files.
+<p>Open the project in your preferred code editor and navigate to the <code>LocationScreen.js</code> and <code>StoreDetailsScreen.js</code> files.
 Locate the following line:</p>
 <code>const response = await axios.get('http://[YOUR DJANGO IP]:[YOUR DJANGO PORT]')</code>
-<p>Replace the URL with the endpoint of your Django API where store information is served. Make sure your API is running and accessible. For development's sake, it is recommended to input custom IP and port through Django's ```runserver``` command. <a href="#example">Example.</a></p>
+<p>Replace the URL with the endpoint of your Django API where store information is served. Make sure your API is running and accessible. For development's sake, it is recommended to input custom IP and port through Django's <code>runserver</code> command. <a href="#example">Example.</a></p>
+
+<h3>Run the App</h3>
+<code>expo start</code>
+<p>Scan the QR code using the Expo Go app on your mobile device or run the app on an emulator.</p>
+
+<h3>Explore Discounty</h3>
+<p>Once the app is running, you can explore the Discounty app on your mobile device. Discover nearby stores, view their discounts, and experience the app's functionality.</p>
